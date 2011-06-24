@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Richard Norton"]
   s.email       = ["rwtnorton@gmail.com"]
   s.homepage    = "https://github.com/rwtnorton/moar-lolspeak"
-  s.summary     = %q{Moar LOLspeak}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Translates from English to lolspeak.}
+  s.description = %q{Shameless copy of CPAN module Acme::LOLCAT.}
 
   s.rubyforge_project = "moar-lolspeak"
 
