@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
   s.name        = "moar-lolspeak"
   s.version     = Moar::Lolspeak::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
+  s.authors     = ["Richard Norton"]
+  s.email       = ["rwtnorton@gmail.com"]
+  s.homepage    = "https://github.com/rwtnorton/moar-lolspeak"
+  s.summary     = %q{Moar LOLspeak}
   s.description = %q{TODO: Write a gem description}
 
   s.rubyforge_project = "moar-lolspeak"
@@ -18,4 +18,5 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+  s.add_development_dependency "rspec", "~> 2.5.0"
 end
