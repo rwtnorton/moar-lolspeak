@@ -92,3 +92,11 @@ module Moar
     end
   end
 end
+
+class String
+  unless method_defined?(:to_lolspeak)
+    def to_lolspeak
+      Moar::Lolspeak.translate(self)
+    end
+  end
+end
